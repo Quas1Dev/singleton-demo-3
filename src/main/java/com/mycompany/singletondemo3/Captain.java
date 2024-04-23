@@ -13,6 +13,8 @@ public class Captain {
         return captain;
     }
     
+    // This method is used to demonstrate that a new instance is created
+    // as soon as the Capitain class is loaded into memory.
     public static void dummyMethod(){
         System.out.println("It is a dummy method!");
     }
